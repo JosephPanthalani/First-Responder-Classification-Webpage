@@ -9,7 +9,11 @@
         function buttonClicked(buttonType) {
             let answersTextarea = document.getElementById('answers');
             let answer = '';
+// Get the value of the textarea with id "tweet"
+            let tweetText = document.getElementById('tweet').value;
 
+// Now, tweetText contains the text written in the textarea
+            console.log(tweetText); // This will print the tweet text to the console
             // Determine the answer based on the button type
             switch (buttonType) {
                 case 'Relevancy':
